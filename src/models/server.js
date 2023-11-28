@@ -17,7 +17,7 @@ class Server {
     };
 
     this.app = express();
-    this.port = PORT;
+    this.port = PORT
 
     // Métodos iniciales
     this.dbConnection();
